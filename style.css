@@ -1,0 +1,107 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg);
+}
+
+.container
+{
+    background-color: orange;
+    border: 2px solid #4831d4;
+    padding: 4vw;
+    margin: auto;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 1px lightgreen;
+}
+
+h2
+{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: #4831d4;
+}
+
+.startdate, .enddate
+{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.from, .to
+{
+    text-transform: capitalize;
+    padding: 10px;
+
+}
+
+.inputdata
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.submitdata, .getage
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.submit
+{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.submit:hover
+{
+    background-color: lightgreen;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 4px 1px black;
+    transition: 0.3s;
+
+}
+
+.container p{
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
